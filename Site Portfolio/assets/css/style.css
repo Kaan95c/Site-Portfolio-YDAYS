@@ -1,0 +1,249 @@
+@font-face {
+  font-family:'saiyan_sans';
+  src: url(/assets/font/saiyan_sans/Saiyan-Sans.ttf);
+}
+
+body{
+  background-image: url(/assets/images/dbzbackground.jpg);
+  background-size: cover;
+}
+
+.bodyprojects{
+  background-image: url(/assets/images/goku.png);
+}
+
+.bodycontact{
+  background-image: url(/assets/images/goku.png);
+}
+
+.bodyaboutmegoku{
+  background-image: url(/assets/images/aboutmegoku.jpg);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+header .container {
+  height: 100px;
+  background: rgba(0, 0, 0, 0.25);
+  display: flex;
+  padding: 1rem 2rem;
+  gap: 277px;
+  font-family: 'saiyan_sans' ,sans-serif;
+}
+
+header .container ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header .container ul a {
+  font-size: 75px;
+  font-weight: 700;
+  margin: 50px;
+  margin-left: auto;
+  color: rgba(194, 20, 20, 0.872);
+  filter: drop-shadow(5px 4px 4px rgba(0, 0, 0, 0.25));
+  align-items: center;
+  padding-bottom: 3px;
+}
+
+header .container ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.imggoku {
+  display: block;
+  width: 20%;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.imgkaan{
+  display: block;
+  width: 50%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.imgtrunks{
+  display: block;
+  width: 5%;
+  margin-left: auto;
+  margin-top: -6.5%;
+}
+
+.imgpipi{
+  display: block;
+  width: 4.5%;
+  position: relative;
+  right: -1%;
+  margin-top: -5.8%;
+}
+
+.textmid{
+  display: flex;
+  justify-content: space-between;
+}
+
+.imghangman{
+  height: 160%;
+  width: 110%;
+  border:2px solid #fff;
+  box-shadow: 10px 10px 5px #000000;
+  position: relative;
+}
+
+.fontsayan {
+  flex-direction: row;
+  height: 200px;
+  display: flex;
+  padding: 1rem 2rem;
+  font-family: 'saiyan_sans' ,sans-serif;
+  color: rgb(6, 23, 39);
+  font-size:xx-large
+}
+
+.txthangman{
+  position: relative;
+  left: 0%;
+  margin-top: 0%;
+  padding-bottom: 10%;
+}
+
+.imggroupie{
+  height: 160%;
+  width: 110%;
+  border:2px solid #fff;
+  box-shadow: 10px 10px 5px #000000;
+  position: relative;
+}
+
+.iglogo{
+  display: block;
+  width: 20%;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.maillogo{
+  display: block;
+  width: 15%;
+  margin: auto;
+  margin-top: -18.5%;
+  margin-left: 10%;
+}
+
+.ynovlogo{
+  display: block;
+  width: 15%;
+  margin: auto;
+  margin-top: -15%;
+  margin-right: 10%;
+}
+
+.h1{
+  padding-bottom: 20%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100px;
+  display: flex;
+  padding: 5rem 2rem;
+  font-family: 'saiyan_sans' ,sans-serif;
+  color: rgb(184, 146, 12);
+  font-size:500%
+}
+
+.h1aboutme{
+  padding-bottom: 20%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100px;
+  display: flex;
+  padding: 2rem 2rem;
+  font-family: 'saiyan_sans' ,sans-serif;
+  color: rgb(255, 115, 0);
+  font-size:500%
+}
+
+.pkaan {
+    margin-top: -15%;
+    margin-left: auto;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    font-family: 'saiyan_sans' ,sans-serif;
+    color: hsl(22, 95%, 45%);
+    padding-bottom: 10%;
+    font-size: x-large;
+    text-shadow: #000000;
+    font-style: oblique;
+}
+
+.divpkaan{
+  float: right;
+  position: relative;
+  top: 200px;
+  left: 200px;
+  margin-right: 10%;
+  margin-top: -23%;
+  padding-right: 40%;
+  padding-left: 12%;
+}
+
+.divpkaan2{
+  float: right;
+  position: relative;
+  top: 100px;
+  left: 200px;
+  margin-right: 10%;
+  margin-top: -23%;
+  padding-right: 5%;
+  padding-left: 55%;
+}
+
+.divpkaan3{
+  float: right;
+  position: relative;
+  margin-right: 75%;
+  margin-top: 8%;
+
+}
+
+
+@media screen and (max-width :500px) {
+      body{
+        background-size: auto;
+      }
+
+      .imggoku{
+        margin-top: 8%;
+        margin-left: 28%;
+        width: 30%;
+      }
+
+      .imgkaan{
+        width: 75%;
+        margin-top: 10%;
+        margin-left: 5%;
+      }
+
+      .container{
+        margin-left: -55%;
+        width: 10%;
+      }
+
+      .textmid {
+        font-size: x-small;
+      }
+
+}
